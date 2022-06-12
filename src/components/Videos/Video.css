@@ -1,0 +1,71 @@
+.videos__list{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+    gap: 1rem;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+.VideoCard__main:hover {
+    transform: translateY(-0.5rem);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+.VideoCard__channellogo{
+    width: 20px;
+    height: 25px;
+}
+.VideoCard__poster{
+height: 150px;
+width: 250px;
+object-fit: cover;
+}
+.VideoCard__details{
+    display: flex;
+    gap: 5px;
+}
+p{
+    margin: 0px;
+}
+.VideoCard__small{
+    font-size: small;
+}
+
+.video__main{
+        display: flex;
+        margin: 30px;
+        gap: 10px;
+}
+.video__similer{
+    border: 1px solid green;
+    width: 100%;
+}
+.video__details{
+    display: flex;
+    justify-content: space-between;
+}
+.video__likes,.video__subscribe,.video__channeldetails{
+    margin-right: 30px;
+    display: flex;
+}
+.video__channel{
+    display: flex;
+    justify-content: space-between;
+}
+.video__similar__details{
+    padding: 10%;
+}
+.VideoRow__main{
+    margin-bottom: 10px;
+}
+.VideoRow__poster{
+    width: 100%;
+}
+.video__comment{
+   
+}
+.video__comment__Buttons{
+    margin:20px 20px 10px 70%;  
+}
