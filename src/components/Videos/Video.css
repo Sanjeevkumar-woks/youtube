@@ -7,6 +7,9 @@
     width: 100%;
 }
 
+.VideoCard__main{
+    padding:7px;
+}
 .VideoCard__main:hover {
     transform: translateY(-0.5rem);
     transition: all 0.4s ease-in-out;
